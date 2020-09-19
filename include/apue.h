@@ -23,6 +23,9 @@
 void err_quit(const char *fmt, ...) __attribute__((noreturn)) ;
 
 
+// 打印和系统调用的错误信息 
+void err_ret(const char *fmt, ...);
+
 /**
  * 打印和系统调用的错误信息，并退出
 */

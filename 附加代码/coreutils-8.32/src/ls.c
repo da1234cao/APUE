@@ -1628,7 +1628,7 @@ main (int argc, char **argv)
   struct pending *thispend;
   int n_files;
 
-  initialize_main (&argc, &argv);
+  initialize_main (&argc, &argv); //noop
   set_program_name (argv[0]);
   setlocale (LC_ALL, "");
   bindtextdomain (PACKAGE, LOCALEDIR);

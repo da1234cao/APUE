@@ -1,3 +1,7 @@
+/**
+ * 查看指定目录中，有哪些文件
+*/
+
 #include "apue.h"
 #include <sys/types.h>
 #include <dirent.h>

@@ -1,4 +1,7 @@
-PROGS =	ls
+ROOT=..
+include $(ROOT)/Make.defines
+
+PROGS =	ls input_output shell
 
 all:	$(PROGS)
 

@@ -13,6 +13,18 @@ void err_quit(const char *fmt, ...){
     exit(1);
 }
 
+
+/**
+ * 打印和系统调用的错误信息，不退出
+*/
+void err_ret(const char *fmt, ...){
+	va_list		ap;
+
+	va_start(ap, fmt);
+	err_doit(1, errno, fmt, ap);
+	va_end(ap);
+}
+
 /**
  * 打印和系统调用的错误信息，并退出
 */

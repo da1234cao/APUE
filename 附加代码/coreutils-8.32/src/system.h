@@ -126,6 +126,10 @@ enum
 
 /* Redirection and wildcarding when done by the utility itself.
    Generally a noop, but used in particular for OS/2.  */
+/**
+ * 在Operating System/2中，使用；在linux中生成noop
+ * initialize_main解析：https://stackoverflow.com/questions/19276701/what-does-initialize-main-argc-argv-do
+*/
 #ifndef initialize_main
 # ifndef __OS2__
 #  define initialize_main(ac, av)

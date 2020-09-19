@@ -1,0 +1,8 @@
+# 变量通过文件传输，省的每次都得编译所有文件
+
+CC=gcc
+LDFLAGS=
+LDDIR=-L$(ROOT)/lib
+LDLIBS=$(LDDIR) -lapue $(EXTRALIBS)
+LIBAPUE=$(ROOT)/lib/libapue.a
+CFLAGS=-I$(ROOT)/include
