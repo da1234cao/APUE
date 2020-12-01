@@ -1,0 +1,4 @@
+write to stdout
+befor fork
+pid is 393; globalvar is 2; localvar is 3;
+pid is 392; globalvar is 1; localvar is 2;
