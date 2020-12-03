@@ -1,7 +1,7 @@
 ROOT=..
 include $(ROOT)/Make.defines
 
-PROGS =	fork_exercise
+PROGS =	fork_exercise status_exercise
 
 all:	$(PROGS)
 
@@ -10,4 +10,4 @@ all:	$(PROGS)
 
 clean:
 	rm -f $(PROGS) *.o
-	rm -f *.txt
+	rm -f *.txt core*
