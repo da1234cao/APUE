@@ -5,4 +5,4 @@ LDFLAGS=
 LDDIR=-L$(ROOT)/lib
 LDLIBS=$(LDDIR) -lapue $(EXTRALIBS)
 LIBAPUE=$(ROOT)/lib/libapue.a
-CFLAGS=-I$(ROOT)/include
+CFLAGS=-I$(ROOT)/include -g
