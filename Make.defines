@@ -3,6 +3,6 @@
 CC=gcc
 LDFLAGS=
 LDDIR=-L$(ROOT)/lib
-LDLIBS=$(LDDIR) -lapue $(EXTRALIBS)
+LDLIBS=$(LDDIR) -lapue $(EXTRALIBS) -lpthread
 LIBAPUE=$(ROOT)/lib/libapue.a
 CFLAGS=-I$(ROOT)/include -g
